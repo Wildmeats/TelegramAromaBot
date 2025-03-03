@@ -33,3 +33,7 @@ tasks.withType<Jar> {
     }
     from(sourceSets.main.get().output)
 }
+
+application {
+    mainClass.set("org.example.MainKt")
+}
